@@ -1,3 +1,4 @@
+
 # Full Mesh Multi-Agent Coding System
 
 A Python app using the [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) where three agents **communicate directly with each other** on a shared message bus:
@@ -68,3 +69,4 @@ multi Agent/
 
 - Python 3.10+
 - OpenAI API key (`OPENAI_API_KEY` in `.env`)
+
