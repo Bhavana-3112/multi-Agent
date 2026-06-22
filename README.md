@@ -16,13 +16,14 @@ User Task → TeamBus (shared conversation)
               ↓
            output/
 ```
+![Multi-Agent Architecture](docs/architecture.png)
 
 Unlike a simple pipeline, agents **message each other** using `talk_to_*` tools. Each tool sends a direct message to a peer agent and returns their reply. The team collaborates over multiple rounds until the Reviewer says **PASS** or max rounds (6) is reached.
 
 ## Quick start (Windows)
 
 ```powershell
-cd "C:\Users\reddy\Downloads\multi Agent"
+cd "C:\Users\Downloads\multi Agent"
 .\run.ps1 "Create a Python module with a function to compute factorial"
 ```
 
